@@ -1,0 +1,24 @@
+COINPILOT AI v1.5 — WINDOWS UPGRADE
+
+1. Close the COINPILOT browser tab and stop the running Streamlit terminal (Ctrl+C).
+2. Extract this ZIP into a NEW folder, not inside the old project folder.
+3. Copy the complete `data` folder from your old COINPILOT installation into the new project folder. This preserves your virtual trades and settings. Never delete the old database.
+4. Double-click START_COINPILOT.bat.
+5. Open the local address shown in the terminal (usually http://localhost:8501).
+
+NEW FEATURES
+- Market Pulse highlights all coins with open virtual holdings.
+- A held coin with a confirmed bearish signal flashes red: SELL / EXIT NOW.
+- A bearish signal for a coin you do not own is only BEARISH WATCH (Spot does not short-sell).
+- BUY SETUP cards offer a $100 PAPER BUY button.
+- Trend Rider, Momentum Hunter and Breakout Scanner are explained in the Market Pulse guide.
+
+PAPER EXIT RULES
+- Initial stop: -1R.
+- At +2R: sell 50%; move stop to break-even.
+- At +4R: sell 25%; move stop to +2R.
+- At +5R: sell the final 25%.
+R = original entry-to-initial-stop distance. These rules are not a profit guarantee.
+
+SAFETY
+This version is simulation only. No real Binance orders are placed. Do not add API keys. Test the app and strategy before considering real trading.

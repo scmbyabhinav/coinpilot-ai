@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+
+# Streamlit/local config and secrets
+.streamlit/secrets.toml
+.env
+.env.*
+!.env.example
+*secret*
+*credential*
+
+# COINPILOT local data and records
+data/
+*.db
+*.sqlite
+*.sqlite3
+*.db-wal
+*.db-shm
+logs/
+*.log
+backups/
+exports/
+*.csv
+*.xlsx
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
